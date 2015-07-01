@@ -32,7 +32,7 @@ public class Car
 	
 	public void bewegung(int strecke)
 	{
-		if tank >= strecke)
+		if (tank >= strecke)
 		{
 			position = position + strecke;
 			tanke = tank - strecke;
