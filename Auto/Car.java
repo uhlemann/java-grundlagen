@@ -4,9 +4,9 @@ public class Car
 	private int position;
 	private int tank;
 	
-	public Auto(int _tank, string _farbe)
+	public Auto(string _farbe)
 	{
-		int tank = _tank;
+		int tank = 10;
 		int position = 0;
 		string farbe = _farbe;
 		
