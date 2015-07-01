@@ -4,15 +4,12 @@ public class SuvCar extends Car
 	{
 		private int tank = 40;
 		
-		if (tank >= strecke)
+		for (int i = tank; i >= strecke; strecke -1)
 		{
-			while (strecke >=0)
-			{
-				position = position +1;
-				tank = tank -1;
-				strecke -1;
-		
-			}
+			position = position -1;
+			tank = tank -1;
+			
 		}
+
 	}
 }
