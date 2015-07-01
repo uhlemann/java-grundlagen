@@ -1,0 +1,7 @@
+-Main Klasse
+-Klasse Mensch
+  -grosse
+  -gewicht
+  -ennergie
+  -position
+  -erfrischung
