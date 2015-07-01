@@ -4,15 +4,12 @@ public class SportCar extends Car
 	{
 		private int tank = 20;
 		
-		if (tank >= strecke)
+		for (int i = tank; i >= strecke; strecke -2)
 		{
-			while (strecke >=0)
-			{
-				position = position +2;
-				tank = tank -1;
-				strecke -1;
+			position = position +2;
+			tank = tank -1;
 		
-			}
 		}
+		
 	}
 }
