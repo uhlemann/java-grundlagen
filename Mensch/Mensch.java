@@ -48,9 +48,27 @@ public class Mensch
     
   }
   
-  public void nehmeEineErfrischung()
+  public void kleineErfrischung()
   {
-    energieReserve = energieReserve + 50;
+    energieReserve = energieReserve + 10;
+    
+  }
+  
+  public void erfrischung()
+  {
+    energieReserve = energieReserve + 25;
+  
+  }
+  
+  public void grosseErfrischung()
+  {
+    energieReserve = energieReserve +50;
+    
+  }
+  
+  public void spezialErfrischung(int erfrischung)
+  {
+    energieReserve = energieReserve + erfrischung;
     
   }
   
